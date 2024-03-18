@@ -1,5 +1,12 @@
 grumphp:
+    stop_on_failure: true
+    fixer:
+        enabled: true
     tasks:
+        phpunit:
+
+        phpstan:
+        
         git_commit_message:
             allow_empty_message: false
             enforce_capitalized_subject: false
