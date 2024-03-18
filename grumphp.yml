@@ -3,6 +3,9 @@ grumphp:
     fixer:
         enabled: true
     tasks:
+        phpcs:
+            standard: PSR12
+            ignore_patterns: [./tests/*]
         phpunit:
 
         phpstan:
