@@ -5,11 +5,13 @@
     "require": {
         "php": ">=8.2",
         "ext-grpc": "*",
+        "ext-opentelemetry": "*",
         "open-telemetry/api": "^1.0",
         "open-telemetry/exporter-otlp": "^1.0",
         "open-telemetry/sdk": "^1.0",
         "open-telemetry/sem-conv": "^1.24",
-        "open-telemetry/transport-grpc": "^1.0"
+        "open-telemetry/transport-grpc": "^1.0",
+        "phpro/grumphp": "^2.5"
     },
     "license": "MIT",
     "autoload": {
@@ -26,7 +28,8 @@
     "minimum-stability": "stable",
     "config": {
         "allow-plugins": {
-            "php-http/discovery": false
+            "php-http/discovery": false,
+            "phpro/grumphp": true
         }
     }
 }
