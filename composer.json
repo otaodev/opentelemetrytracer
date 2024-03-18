@@ -1,0 +1,32 @@
+{
+    "name": "otaodev/opentelemetrytracer",
+    "description": "A basic use for the opentelemetry tracer in php applications",
+    "type": "library",
+    "require": {
+        "php": ">=8.2",
+        "ext-grpc": "*",
+        "open-telemetry/api": "^1.0",
+        "open-telemetry/exporter-otlp": "^1.0",
+        "open-telemetry/sdk": "^1.0",
+        "open-telemetry/sem-conv": "^1.24",
+        "open-telemetry/transport-grpc": "^1.0"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Otaodev\\Opentelemetrytracer\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Tiago Oliveira",
+            "email": "contato@otao.dev.br"
+        }
+    ],
+    "minimum-stability": "stable",
+    "config": {
+        "allow-plugins": {
+            "php-http/discovery": false
+        }
+    }
+}
