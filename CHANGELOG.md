@@ -6,3 +6,6 @@
 - Added the initial structure for the library
 - Added the changelog file
 - Added grumphp to project
+- Added phpunit to project
+- Added phpstan to project
+- Added phpcs to project
