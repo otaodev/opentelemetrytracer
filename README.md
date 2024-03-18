@@ -1,5 +1,5 @@
 # opentelemetrytracer
-A basic use for the opentelemetry tracer in php applications absed in symfony framework
+A basic use for the opentelemetry tracer in php applications based in symfony framework
 
 ## Instalation
 
