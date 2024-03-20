@@ -43,7 +43,9 @@ class TraceRouteListener implements EventSubscriberInterface
 
     public function __destruct()
     {
-        $this->span->end();
+        if (isset($this->span)) {
+            $this->span->end();
+        }
         ShutdownHandler::register([$this->tracerProvider, 'shutdown']);
     }
 
